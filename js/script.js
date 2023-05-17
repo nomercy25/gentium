@@ -42,9 +42,8 @@ new Swiper ('.swiper', {
         },
 
         768: {
-            slidesPerView: 'auto',
-            slidesPerGroup: 1,
-            loopedSlides: 2,
+          slidesPerView: 1,
+          spaceBetween: 0,
         },
 
         992: {

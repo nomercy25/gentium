@@ -909,17 +909,66 @@ media (min-width: 768px) and (max-width: 991px) {
     }
     
 }
+@media  screen and (min-width:676px) and (max-width:766px) {
 
-@media screen and (min-width:576px) and (max-width:766px) {
+    .header-heading {
+        width: 75%;
+    }
     .product-cards {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .product-card {
-        width: 48%;
+        width: 49%;
+    }
+
+    .third-card {
+        margin: 30px auto;
+        width: 50%;
+    }
+
+    .product-card-figure {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 49.9%;
+    }
+
+    .services-cells-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .services-cell { 
+        width: 49%;
+    }
+    
+    .last-cell {
+        margin: 30px auto;
+    }
+
+    .main-photo-blocks {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-photo-block {
+        padding: 0 15px;
+    }
+
+    .main-photo-column {
+        flex-direction: row;
     }
 }
+
+@media screen and (min-width:481px) and (max-width: 675px) {
+    .header-heading {
+        width: 82%;
+    }
+
+}
+
 
 /* Landscape phones and smaller */
 
